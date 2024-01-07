@@ -1,18 +1,23 @@
 #include <iostream>
-#include  <string>
+#include  <ios>
 using namespace std;
 
 int main () {
+
+    ios_base::sync_with_stdio(false);
+    cin.tie(0);
+
     int num, count = 0, i = 0;
 
     cin >> num;
 
-    while(num >= i*5){
-        if ((num - 5*i)%4 == 0){
+    while(num >= i * 5){
+        if ((num - i * 5) % 4 == 0){
               count++;
         }
         i++;
     }
 
     cout << count;
+    return 0;
 }
