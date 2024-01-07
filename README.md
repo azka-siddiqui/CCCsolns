@@ -1,3 +1,3 @@
 # CCCsolns
 
-Solutions for the Canadian Computing Competition
+My solutions for the Canadian Computing Competition
